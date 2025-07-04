@@ -737,9 +737,13 @@ main {
     background-size: cover;
   }
 
+  .main_door:hover {
+  display: none;
+  }
+
   .program-list .title,
   .program-list .quota,
   .program-list .status {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
