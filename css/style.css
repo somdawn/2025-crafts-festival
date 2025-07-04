@@ -745,6 +745,6 @@ main {
   .program-list .quota,
   .program-list .status
   .program-list .time {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
