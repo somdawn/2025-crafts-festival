@@ -1,0 +1,90 @@
+.mypage {
+  padding: 150px 100px;
+}
+
+.mypage-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.tab-menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.tab {
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab.active {
+  background-color: #281811;
+  color: white;
+}
+
+.tab:active {
+  background-color: #281811;
+  color: white;
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.reservation-table th,
+.reservation-table td {
+  border: 1px solid #ccc;
+  padding: 14px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background-color: #281811;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-btn:active {
+  background-color: #8f664a;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+/* 반응형 */
+@media (max-width: 1024px) {
+  .tab {
+    font-size: 14px;
+    padding: 8px 20px;
+    }
+
+    .reservation-table th,
+    .reservation-table td {
+     font-size: 13px;
+     padding: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+  .mypage {
+    padding: 150px 50px;
+  }
+}

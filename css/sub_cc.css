@@ -1,0 +1,106 @@
+.cooperation_main {
+    width: 100%;
+    padding: 150px 100px;
+}
+.cooperation_title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+.cooperation_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;     
+    row-gap: 50px;        
+    justify-content: center;
+  }
+  
+.cooperation_card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+.desc {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 1.5;
+    color: #222;
+  }
+  
+.brand_name {
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 18px;
+  }
+  
+.tags {
+    display: flex;
+    gap: 8px;
+    padding-top: 24px;
+    flex-wrap: wrap;
+  }
+  
+
+  .tag {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 16px;
+    border-radius: 999px;
+
+    height: 24px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+  }
+
+  .tag_crafts {
+    background-color: #f8d8f8;
+  }
+  .tag_tradition, .tag_society {
+    background-color: #c7f9c6;
+  }
+  .tag_design, .tag_art {
+    background-color: #c5faf6;
+  }
+  .tag_cooperation, .tag_culture, .tag_disabled {
+    background-color: #ffdabf;
+  }
+  
+
+  @media screen and (max-width: 1024px) {
+    .cooperation_grid {
+      grid-template-columns: repeat(2, 1fr); 
+      column-gap: 80px;
+      row-gap: 80px;
+      justify-content: center;
+    }
+  
+    .cooperation_card {
+      width: 100%;
+      max-width: 100%; 
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .cooperation_main {
+    padding: 150px 50px;
+    }
+    
+    .cooperation_grid {
+      grid-template-columns: 1fr;
+      row-gap: 80px;
+    }
+  
+    .cooperation_card {
+      width: 100%;
+    }
+  
+    .cooperation_card img {
+      width: 100%;
+      height: auto;
+    }
+  }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/mypage.css">
+</head>
+
+<body>
+    <header class="main_header">
+        <div class="header_container">
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logo_garo_ban.png" alt="header_logo"></a>
+          </div>
+    
+          <nav class="main_nav">
+            <ul class="nav_menu">
+              <li class="nav_item">
+                거점도시 프로그램
+                <div class="submenu">
+                  <a href="./program.html">고성</a>
+                  <a href="">부안</a>
+                  <a href="">전주</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                기획 프로그램
+                <div class="submenu">
+                  <a href="./all_program.html">전체 프로그램</a>
+                  <a href="./reservation_program.html">예약 프로그램</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                협력
+                <div class="submenu">
+                  <a href="./sub_cooperative.html">협력기관/기업</a>
+                  <a href="./sub_ccsc.html">공예창작지원센터</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                <a href="../html/sub_map.html">지도</a>
+              </li>
+              <li class="nav_item">
+                커뮤니티
+                <div class="submenu">
+                  <a href="./notice.html">공지사항</a>
+                  <a href="./faq.html">FAQ</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                <a href="./news.html">보도자료</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="header_icons">
+            <button class="icon_btn">
+              <a href="./login.html">
+                <img src="../img/login_fff.png" alt="">
+              </a>
+            </button>
+            <button class="icon_btn">
+              <a href="./mypage.html">
+                <img src="../img/mypage_fff.png" alt="">
+              </a>
+            </button>
+            <button class="icon_btn hamburger">
+              <img src="../img/menu_fff.png" alt="">
+            </button>
+          </div>
+        </div>
+      </header>
+    
+    <main>
+        <section class="mypage">
+            <h2 class="mypage-title">나의 예약 프로그램 현황</h2>
+
+            <div class="tab-menu">
+                <button class="tab active">예약 목록</button>
+                <button class="tab">지난 예약 목록</button>
+            </div>
+
+            <table class="reservation-table">
+                <thead>
+                    <tr>
+                        <th>체험명</th>
+                        <th>날짜/시간</th>
+                        <th>장소</th>
+                        <th>상태</th>
+                        <th>인원수</th>
+                        <th>취소하기</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>비누 공연</td>
+                        <td>6월 30일 11:00</td>
+                        <td>부안 공방</td>
+                        <td>예약 완료</td>
+                        <td>2명</td>
+                        <td><button class="cancel-btn">취소하기</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="pagination">
+                <button>1</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_first">
+            <ul class="footer_notice">
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">저작권정책</a></li>
+            </ul>
+            <div class="footer_sns">
+                <button class=" icon_btn naver">
+                    <img src="../img/naver_fff.png" alt="naver_icon">
+                </button>
+                <button class=" icon_btn instagram">
+                    <img src="../img/instra_fff.png" alt="instagram_icon">
+                </button>
+                <button class=" icon_btn youtube">
+                    <img src="../img/youtube_fff.png" alt="youtube_icon">
+                </button>
+            </div>
+        </div>
+        <div class="footer_second">
+            <div>
+                <p class="stress">Copyright ⓒ Craft Week 2025 All rights reserved.</p>
+                <div class="footer_infrom">
+                    <p>Tel. 02-398-7951, 7952</p>
+                    <p>E-mail. craftweek@kcdf.kr</p>
+                </div>
+                <div class="footer_hosted"></div>
+            </div>
+            <div class="footer_logo"></div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

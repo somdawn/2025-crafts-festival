@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+li{
+    margin-bottom: 10px;
+}
+main{
+    width: 100%;
+    background-color: #fffced;
+    padding: 100px 0;
+}
+
+section{
+    width: 632px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #281811;
+    border-radius: 30px;
+}
+
+.tit-wrap{
+    padding: 30px 0;
+}
+.tit-wrap{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.form-wrap label{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.form-wrap span{
+    font-size: 12px;
+    color: tomato;
+    padding-left: 10px;
+}
+.form-wrap b{
+    font-weight: normal;
+    color: #333;
+    padding: 0 10px;
+}
+input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+}
+.box, .box1{
+    width: 575px;
+    height: 46px;
+    margin: 5px auto;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    padding: 5px;
+}
+.box>input{
+    width: 100%;
+}
+input[type=button]{
+    border: 1px solid #757575;
+    background-color: #fff;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+.id-box{
+    width: calc(100% - 110px);
+}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+}
+.email>b{
+    line-height: 50px;
+}
+.email input{
+    width: 240px;
+    height: 48px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.join-btn{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.join-btn>input{
+    width: 280px;
+    border: 1px solid #333;
+    height: 40px;
+    border-radius: 30px;
+}
+.join-btn>input[type="reset"]{
+    color: #757575;
+    border: 1px solid #757575;
+}
+
+.join-btn>input:focus {
+    color: #fff;
+    background-color: #281811;
+}
+
+
+@media screen and (max-width: 1024px) {
+    section{
+    width: 500px;
+    }
+    .box, .box1{
+    width: 460px;
+    }
+    .email input{
+    width: 190px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    section{
+    width: 460px;
+    }
+    .box, .box1{
+    width: 400px;
+    }
+    .email input{
+    width: 150px;
+    }
+}

@@ -1,0 +1,202 @@
+.location_detail {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 150px 100px;
+}
+
+
+.location_title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.location_visual {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.location_visual img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.location_info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.mgn_btm {
+  margin-bottom: 150px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.copy_text {
+  font-size: 16px;
+  color: #555;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button_group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.btn.dark {
+  background-color: #4B2E1D;
+}
+
+.btn:active {
+  color: #0d0d0d;
+  background-color: #ffdabf;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 40px 0;
+}
+
+.site_section .link {
+  color: #222;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.bus_list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.bus_list li::before {
+  content: "●";
+  color: #D9D9D9;
+  margin-right: 10px;
+}
+
+.bus_list li {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.small {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .location_title {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+
+  .location_visual img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .location_detail {
+    padding: 150px 50px;
+  }
+
+  .location_title {
+    font-size: 20px;
+  }
+
+  .location_visual img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .location_info {
+    gap: 12px;
+  }
+
+  .desc {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+  }
+
+  .copy_text {
+    font-size: 12px;
+  }
+
+  .button_group {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .site_section .link,
+  .bus_list li {
+    font-size: 13px;
+  }
+
+  .label {
+    font-size: 13px;
+  }
+
+  .small {
+    font-size: 11px;
+  }
+}

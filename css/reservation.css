@@ -1,0 +1,141 @@
+main {
+  padding: 0 100px;
+  align-items: center;
+}
+
+.program-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.program-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+
+.program-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 50px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+.program-set {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.program-box {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.image-box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  background-position: center;
+  object-fit: cover;
+  display: block;
+}
+
+.text-box {
+  width: 50%;
+  padding: 24px;
+  color: #0d0d0d;
+
+}
+
+.text-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.info-section {
+  margin-bottom: 15px;
+}
+
+.info-section:nth-of-type(1) {
+  margin-top: 31px;
+}
+
+.info-section:nth-of-type(2) {
+  margin-top: 15px;
+}
+
+.info-section:nth-of-type(3) {
+  margin-top: 56px;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.reserve-btn {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 14px;
+  background-color: #0d0d0d;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.info-section .value {
+  display: flex;
+  align-items: center;
+}
+
+/* 반응형 */
+@media (max-width: 1470px) {
+  .program-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .program-set {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+  .program-set {
+    flex-direction: column;
+  }
+
+  .program-box {
+    width: 100%;
+  }
+}

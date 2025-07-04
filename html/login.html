@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login_style.css">
+</head>
+
+<body>
+    <header class="main_header">
+        <div class="header_container">
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logo_garo_ban.png" alt="header_logo"></a>
+          </div>
+    
+          <nav class="main_nav">
+            <ul class="nav_menu">
+              <li class="nav_item">
+                거점도시 프로그램
+                <div class="submenu">
+                  <a href="./program.html">고성</a>
+                  <a href="">부안</a>
+                  <a href="">전주</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                기획 프로그램
+                <div class="submenu">
+                  <a href="./all_program.html">전체 프로그램</a>
+                  <a href="./reservation_program.html">예약 프로그램</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                협력
+                <div class="submenu">
+                  <a href="./sub_cooperative.html">협력기관/기업</a>
+                  <a href="./sub_ccsc.html">공예창작지원센터</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                <a href="../html/sub_map.html">지도</a>
+              </li>
+              <li class="nav_item">
+                커뮤니티
+                <div class="submenu">
+                  <a href="./notice.html">공지사항</a>
+                  <a href="./faq.html">FAQ</a>
+                </div>
+              </li>
+              <li class="nav_item">
+                <a href="./news.html">보도자료</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="header_icons">
+            <button class="icon_btn">
+              <a href="./login.html">
+                <img src="../img/login_fff.png" alt="">
+              </a>
+            </button>
+            <button class="icon_btn">
+              <a href="./mypage.html">
+                <img src="../img/mypage_fff.png" alt="">
+              </a>
+            </button>
+            <button class="icon_btn hamburger">
+              <img src="../img/menu_fff.png" alt="">
+            </button>
+          </div>
+        </div>
+      </header>
+    
+    <main>
+        <section>
+            <article>
+                <div class="login-wrap">
+                    <div class="login-title">
+                        <p>LOG IN</p>
+                    </div>
+                    <div class="login-tab">
+                        <ul>
+                            <li><a href="">로그인</a></li>
+                            <li class="order"><a href="">비회원 예약 내역 조회</a></li>
+                        </ul>
+                    </div>
+                    <div class="login-module">
+                        <div class="idpassword">
+                            <input type="text" placeholder="아이디" name="id" id="id" required>
+
+                            <input type="password" placeholder="비밀번호" name="psw" id="psw" required>
+
+                            <input id="member_check_save_id0" name="check_save_id" fw-filter="" fw-label="아이디저장"
+                                fw-msg="" value="T" type="checkbox" placeholder="아이디 저장" required>
+                            <label for="member_check_save_id0" class="saveid">아이디 저장</label>
+
+                            <div class="login-submit-btn">
+                                <a href="">로그인</a>
+                            </div>
+                            <div class="find-wrap">
+                                <a href="" class="findid">아이디 찾기</a> |
+                                <a href="" class="findpsw">비밀번호 찾기</a>|
+                                <a href="./join.html" class="join">회원가입</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_first">
+            <ul class="footer_notice">
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">저작권정책</a></li>
+            </ul>
+            <div class="footer_sns">
+                <button class=" icon_btn naver">
+                    <img src="../img/naver_fff.png" alt="naver_icon">
+                </button>
+                <button class=" icon_btn instagram">
+                    <img src="../img/instra_fff.png" alt="instagram_icon">
+                </button>
+                <button class=" icon_btn youtube">
+                    <img src="../img/youtube_fff.png" alt="youtube_icon">
+                </button>
+            </div>
+        </div>
+        <div class="footer_second">
+            <div>
+                <p class="stress">Copyright ⓒ Craft Week 2025 All rights reserved.</p>
+                <div class="footer_infrom">
+                    <p>Tel. 02-398-7951, 7952</p>
+                    <p>E-mail. craftweek@kcdf.kr</p>
+                </div>
+                <div class="footer_hosted"></div>
+            </div>
+            <div class="footer_logo"></div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
