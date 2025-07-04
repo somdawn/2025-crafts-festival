@@ -347,6 +347,6 @@ footer {
 
 @media screen and (max-width: 400px) {
     .footer_notice a {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
