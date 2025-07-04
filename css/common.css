@@ -330,6 +330,7 @@ footer {
     .footer_notice a {
         display: block;
         width: 100%;
+        font-size: 10px;
     }
 
     .footer_second>div {
@@ -348,9 +349,5 @@ footer {
 @media screen and (max-width: 400px) {
         .footer_notice {
         gap: 5px;
-    }
-    
-    .footer_notice a {
-        font-size: 8px;
     }
 }
