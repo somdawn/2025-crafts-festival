@@ -743,7 +743,7 @@ main {
 
   .program-list .title,
   .program-list .quota,
-  .program-list .status
+  .program-list .status,
   .program-list .time {
     font-size: 10px;
   }
